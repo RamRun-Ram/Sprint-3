@@ -15,7 +15,8 @@ Inheritance
 Polymorphism
 1) Добавьте метод чтения по умолчанию для поля damageRoll, которое возвращает радномное число.
 2) Реализуйте класс Player, имплементирующий интерфейс ru.sber.oop.Fightable с дополнительным полем name (строка)
-   и isBlessed. attack уменьшает здоровье оппоненту на damageRoll, если isBlessed = false, и удвоенный damageRoll, если isBlessed = true. Результат функции attack -
+   и isBlessed. attack уменьшает здоровье оппоненту на damageRoll, если isBlessed = false, и удвоенный damageRoll, 
+   если isBlessed = true. Результат функции attack -
    количество урона, которое нанес объект класса Player.
 
 3) Реализуйте абстрактный класс Monster, имплементирующий интерфейс ru.sber.oop.Fightable со строковыми полями
